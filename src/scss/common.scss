@@ -1,0 +1,29 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+    font-family: $roboto;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    color: $main-text;
+    box-sizing: border-box;
+    height: 100%;
+  }
